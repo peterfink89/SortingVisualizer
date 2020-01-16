@@ -1,0 +1,60 @@
+.array-container {
+    position: sticky;
+    top: 12px;
+    padding: 8em;
+}
+
+.array-bar {
+    width: 6px;
+    background-color: #DA0049;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.buttons-container{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.button-container{
+    background: #00CBDB;
+    padding: 12px 24px;
+}
+
+.button1{
+    border: 0.25em solid black;
+    border-radius: 0.5em;
+    background: white;
+    color: black;
+    font-family: Arial Black;
+    font-size: large;
+}
+
+.button2{
+    display: inline-flex;
+    border: 0.15em solid black;
+    border-radius:0.5em;
+    background:black;
+    color: white;
+    font-family: Arial black;
+    font-size: large;
+}
+
+.button1:hover{
+    color: white;
+    background-color: black;
+}
+
+.range-slider{
+    direction: rtl;
+    appearance: slider-horizontal;
+    background: #00CBDB;
+    fill: black;
+}
+
+.full-page{
+    background-size: cover;
+    background: #101010;
+}
+
+/* dark grey: #101010 blueish: #00CBDB */
